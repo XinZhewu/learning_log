@@ -139,6 +139,7 @@ if cwd == '/app' or cwd[:4] == '/tmp':
 
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
+    # 如教程中需连接到Heroku, 把字符串改成'xxx.herokuapp.com'即可
     ALLOWED_HOSTS = ['localhost']
     DEBUG = False
 
